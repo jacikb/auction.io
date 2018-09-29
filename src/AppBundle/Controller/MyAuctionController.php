@@ -35,7 +35,8 @@ class MyAuctionController extends Controller
         $entityManager = $this->getDoctrine()->getManager();
         $auctions = $entityManager
             ->getRepository(Auction::class)
-            ->findBy(["owner" => $this->getUser()]);
+            ->findMyOrdered($this->getUser());
+            //->findBy(["owner" => $this->getUser()]);
 
         return $this->render("MyAuction/index.html.twig", ["auctions" => $auctions]);
     }

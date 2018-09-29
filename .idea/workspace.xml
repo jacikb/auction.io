@@ -5,17 +5,17 @@
     <ignored path="auction.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/AuctionType.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537783869801" ignored="false" />
-    <file path="/AuctionController.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537888877575" ignored="false" />
+    <file path="/AuctionController.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538213237091" ignored="false" />
     <file path="/services.yml" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1536251336878" ignored="false" />
     <file path="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1536602849563" ignored="false" />
-    <file path="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537878343025" ignored="false" />
+    <file path="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538122950711" ignored="false" />
     <file path="$PROJECT_DIR$/var/cache/dev/ContainerJvtacin/getForm_Type_EntityService.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1536604217963" ignored="false" />
     <file path="$PROJECT_DIR$/var/cache/dev/ContainerJvtacin/getForm_TypeExtension_Form_DataCollectorService.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1536604217963" ignored="false" />
     <file path="$PROJECT_DIR$/var/cache/dev/ContainerJvtacin/appDevDebugProjectContainer.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1536604217963" ignored="false" />
-    <file path="/details.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538120292683" ignored="false" />
+    <file path="/details.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538121637208" ignored="false" />
     <file path="/base.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537948889064" ignored="false" />
     <file path="/.bowerrc" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1536611324647" ignored="false" />
-    <file path="/index.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537874481286" ignored="false" />
+    <file path="/index.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538122776897" ignored="false" />
     <file path="/config.yml" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1536752622965" ignored="false" />
     <file path="/Auction.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537867158885" ignored="false" />
     <file path="/Offer.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537869473619" ignored="false" />
@@ -29,7 +29,7 @@
     <file path="/security.yml" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537861637363" ignored="false" />
     <file path="/parameters.yml" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537862177358" ignored="false" />
     <file path="/User.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537869446786" ignored="false" />
-    <file path="/MyAuctionController.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537873567480" ignored="false" />
+    <file path="/MyAuctionController.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538214660103" ignored="false" />
     <file path="/menuAnonymous.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537948426370" ignored="false" />
     <file path="/menuAuthenticated.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537948727350" ignored="false" />
     <file path="/layout.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1537949989764" ignored="false" />
@@ -37,6 +37,9 @@
     <file path="/login_content.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538117692808" ignored="false" />
     <file path="/register_content.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538118392863" ignored="false" />
     <file path="/confirmed.html.twig" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538119154359" ignored="false" />
+    <file path="/DateExtension.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538124337467" ignored="false" />
+    <file path="/AuctionRepository.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538214593953" ignored="false" />
+    <file path="/ExpireAuctionCommand.php" changelist="23d3a016-20a1-4271-9eed-6bd97b60e196" time="1538217121240" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,91 +62,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login_content.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="99" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-17.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_content.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="48" selection-start="676" selection-end="676" vertical-scroll-proportion="-13.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="confirmed.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.8846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="details.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="details.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/Auction/details.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="36" selection-start="951" selection-end="951" vertical-scroll-proportion="0.26666668">
+            <state line="3" column="59" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finished.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/Auction/finished.html.twig">
+      <file leaf-file-name="DateExtension.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Twig/DateExtension.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="45" column="67" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/request.html.twig">
+      <file leaf-file-name="AuctionController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AuctionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="25" column="111" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request_content.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/request_content.html.twig">
+      <file leaf-file-name="dev.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/var/logs/dev.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="5849" column="94" selection-start="1663071" selection-end="1663147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show_content.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/show_content.html.twig">
+      <file leaf-file-name="AuctionRepository.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/AuctionRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="49" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/show.html.twig">
+      <file leaf-file-name="MyAuctionController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyAuctionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="42" column="0" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpireAuctionCommand.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/ExpireAuctionCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.5462725">
+              <folding>
+                <element signature="e#194#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/Auction/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="26" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/MyAuction/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="48" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/MyAuction/details.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="22" selection-start="71" selection-end="108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,22 +164,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Auction.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/MyAuctions/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/MyAuctions/details.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/MyAuction/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/MyAuction/details.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/MyAuctionController.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/AuctionController.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/OfferController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/menuAnonymous.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/menuAuthenticated.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/FOSUserBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/Auction/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/MyAuction/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/MyAuction/details.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/Auction/details.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Twig/DateExtension.php" />
+        <option value="$PROJECT_DIR$/var/logs/dev.log" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/AuctionController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Repository/AuctionRepository.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/MyAuctionController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Command/ExpireAuctionCommand.php" />
       </list>
     </option>
   </component>
@@ -496,6 +501,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="var" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -515,6 +552,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Twig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,6 +675,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -617,6 +720,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auction.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAuction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -763,7 +892,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32611385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33477724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -844,111 +973,107 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AuctionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="444" selection-end="457" vertical-scroll-proportion="-10.461538" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/menuAuthenticated.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="60" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/check_email.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/email.txt.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/request.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="99" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-17.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="48" selection-start="676" selection-end="676" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
+        <state line="20" column="48" selection-start="676" selection-end="676" vertical-scroll-proportion="-13.076923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/request_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/show_content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Profile/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/Auction/finished.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.8846154">
+        <state line="9" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/Auction/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/MyAuction/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="48" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/MyAuction/details.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="71" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/Auction/details.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="951" selection-end="951" vertical-scroll-proportion="0.26666668">
+        <state line="3" column="59" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Twig/DateExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="67" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/logs/dev.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5849" column="94" selection-start="1663071" selection-end="1663147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AuctionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="111" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/AuctionRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/MyAuctionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Command/ExpireAuctionCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.5462725">
+          <folding>
+            <element signature="e#194#259#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

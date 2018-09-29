@@ -22,7 +22,11 @@ class AuctionController extends Controller
     {
         $entityManager = $this->getDoctrine()->getManager();
         //$auctions = $entityManager->getRepository(Auction::class)->findAll();//pobira wszystkie
-        $auctions = $entityManager->getRepository(Auction::class)->findBy(["status" => Auction::STATUS_ACTIVE]);//pobira wszystkie
+        //$auctions = $entityManager->getRepository(Auction::class)->findBy(["status" => Auction::STATUS_ACTIVE]);//pobira wszystkie
+        $auctions = $entityManager->getRepository(Auction::class)->findActivOrdered();//ZDEFINIOWANE W RESITORY
+        $logger = $this->get("logger");//pobiuera logger z kontenera
+        #logger->info("uzytkownik wszedł na Auction index");
+
         return $this->render("Auction/index.html.twig", ["auctions" => $auctions]);
 
     }

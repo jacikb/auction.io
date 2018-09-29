@@ -1,7 +1,7 @@
 {% extends "base.html.twig" %}
 
 {% block body %}
-    <div class="panel panel-default">
+    <div class="panel {{ auctionStyle(auction.expiresAt) }}">
         <div class="panel-heading">
             <h4>{{ auction.title }}</h4>
         </div>
